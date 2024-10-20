@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name" />
+
+    <EditText
+        android:id="@+id/editTextDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Dept"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Record"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/buttonDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Records"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Records will be displayed here"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
